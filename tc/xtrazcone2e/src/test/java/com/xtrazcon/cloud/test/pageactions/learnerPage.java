@@ -47,9 +47,9 @@ public class learnerPage extends Common {
             System.out.println("hemadrirrexjdsjzxlkxlk");
             Thread.sleep(8000);
             super.elementClick(retriveLocators(learner.get("loginbtn")));
-            if(!super.isElementVisible(retriveLocators(learner.get("siteLogo"))));{
-                driver.findElement(retriveLocators(learner.get("password"))).sendKeys(Keys.ENTER);
-            }
+//             if(!super.isElementVisible(retriveLocators(learner.get("siteLogo"))));{
+//                 driver.findElement(retriveLocators(learner.get("password"))).sendKeys(Keys.ENTER);
+//             }
 
         }catch (Exception e){
             throw new RuntimeException(e);
