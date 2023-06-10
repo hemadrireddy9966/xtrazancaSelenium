@@ -46,9 +46,9 @@ public class trainerPage extends Common {
         try{
             System.out.println("hemadrirrexjdsjzxlkxlk");
             super.elementClick(retriveLocators(trainer.get("loginbtn")));
-            if(!super.isElementVisible(retriveLocators(trainer.get("siteLogo"))));{
-                driver.findElement(retriveLocators(trainer.get("password"))).sendKeys(Keys.ENTER);
-            }
+//             if(!super.isElementVisible(retriveLocators(trainer.get("siteLogo"))));{
+//                 driver.findElement(retriveLocators(trainer.get("password"))).sendKeys(Keys.ENTER);
+//             }
 
         }catch (Exception e){
             throw new RuntimeException(e);
